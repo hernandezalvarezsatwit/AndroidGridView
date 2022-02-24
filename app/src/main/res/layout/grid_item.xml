@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Creates the layout for each grid item-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+    <!--    A vertical layout holds the 3 views-->
+
+    <!--    View that holds the image-->
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="100dip"
+        android:layout_height="100dip"/>
+
+    <!--    View that holds the title-->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"/>
+
+    <!--    View that holds the date-->
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"/>
+</LinearLayout>

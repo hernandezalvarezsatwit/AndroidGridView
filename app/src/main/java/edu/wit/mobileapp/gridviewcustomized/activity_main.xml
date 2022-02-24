@@ -1,0 +1,15 @@
+<!--This just creates a linear layout with a gridview all across the screen -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+<!--    Notice how to set the number of columns -->
+    <GridView
+        android:id="@+id/myGridView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="3"/>
+<!--    Notice auto fit is available instead of 3, extra set up necessary-->
+</LinearLayout>
